@@ -1,0 +1,259 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 1rem;*/
+    font-weight: 400;
+    line-height: 1;
+    color: black
+}
+
+div.sections {
+    /* top right bottom left */
+    margin: 0px 20% 0% 5%;
+    border: blue;
+    padding-top: 0%;
+}
+
+#profile {
+    text-align: center;
+}
+
+.blur {
+    background-color: #B31B1B;
+    filter: blur(13px)
+}
+
+img.myimage {
+    width: 200px;
+    height: 259px;
+    border-radius: 30%;
+    vertical-align: middle
+}
+
+ul.bullets {
+    font-size: 20px;
+}
+
+p.regulartext {
+    font-size: 20px;
+}
+
+p.myname {
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: #eee;
+    color: darkblue;
+    cursor: pointer;
+    padding: 18px;
+    font-size: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+  
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover)*/
+.active, .accordion:hover {
+    background-color:#0065A4;
+    color: white;
+}
+
+/*.accordion:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+)
+    font-size: 13px;
+    color: #0065A4;
+    float: right;
+    margin-left: 5px;
+}*/
+
+
+.accordion.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
+
+  
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: hotpink;
+    display: block;
+    /*color: hotpink;*/
+    /*max-height: 0;
+    overflow: hidden;*/
+    /*transition: max-height 0.2s ease-out;*/
+    /*margin-bottom: 10px*/
+}
+
+/* The side navigation menu */
+.sidebar {
+    margin: 0;
+    font-size: 18px;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+  
+/* Active/current link */
+.sidebar a.active {
+    background-color: #B31B1B;
+    color: white;
+}
+  
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+    background-color:#0065A4;
+    color: white;
+}
+
+p.exposure {
+    border-bottom: 3px solid grey;
+    font-size: 2rem;
+    background-color: whitesmoke
+}
+
+div.lakereffectseries {
+    text-align: center;
+}
+
+/* Highlight the section that the user is at right now 
+.sidebar.active {
+    background-color: hotpink;
+    color: white
+}*/
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    padding-bottom: 50px;
+}
+  
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+}
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+}
+
+html,
+body {
+    height: 100%;
+    position: relative;
+}
+
+#container {
+    min-height: 100vh;
+    position: relative;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    padding: 15px;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    background: #0065A4;    
+}
+
+#header {
+    width: 100%
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+  
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+  
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: skyblue;
+}
+  
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #0065A4;
+}
+  
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tablinks {
+    font-size: 20px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-spacing: 5px;
+}
+
+table#utbl {
+    width: 100%;
+    font-size: 15px;
+    background-color: #f1f1c1
+}
+
+table#utbl tr:nth-child(even){
+    background-color: #eee
+}
+
+table#utbl tr:nth-child(odd) {
+    background: #fff
+}
+
+table#utbl th {
+    color: white;
+    background-color: #0065A4;
+    text-align: center
+}
+
+th, td {
+    padding: 20px;
+}

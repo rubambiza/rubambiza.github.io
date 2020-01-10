@@ -1,2 +1,1 @@
-# rubambiza.github.io
-Moving the personal site
+A personal website hosted on github pages

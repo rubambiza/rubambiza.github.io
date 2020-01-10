@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+    shrink-to-fit=no">
+    <title>Gloire Rubambiza</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="public/stylesheets/styles.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,
+                                 800,800i">
+    
+    <!-- Download jQuery from Google -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- [/] jquery -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- Adds hamburger style link when screen is small -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Test adding all Java script that may have jQuery built in -->
+    <script type="text/javascript" src="public/scripts/main.js"></script>
+    <script type="text/javascript" src="public/scripts/gradschool.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146007024-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-146007024-1');
+    </script>
+
+</head>
+<body>
+    <div id="container">
+         <!-- The sidebar -->
+         <div class="sidebar">
+            <a id="_home" class="menulinks" href="index.html">Back to Website</a>
+        </div>
+        <!-- Beginning of body -->
+        <div class="content">
+            <div class="sections">
+                <!-- Tab links -->
+                <div class="tab">
+                    <button class="tablinks" onclick="openTab(event, 'PhD')">Master's or Ph.D</button>
+                    <button class="tablinks" onclick="openTab(event, 'Undergrad')">Undergrad Resources</button>
+                    <button class="tablinks" onclick="openTab(event, 'Funding')">Show Me the Money!</button>
+                    <button class="tablinks" onclick="openTab(event, 'FAQ')">FAQ</button>
+                </div>
+
+                <!-- Beginning of Tab content -->
+                
+                <!-- Beginning of Should I do a Ph.D-->
+                <div id="PhD" class="tabcontent">
+                    <p class="regulartext">
+                        <b>TL;DR</b>: If you want to <b>pay to think</b> and (maybe) make a lot of money now, do an <b>M.Eng</b>.
+                        If you want to <b>get paid to think</b>, do an <b>M.Sc or Ph.D</b>. 
+                    </p>
+                    <p class="regulartext">
+                        The question whether to do a Master's or a Ph.D. completely depends on what you want out of your
+                        graduate studies. One on hand, if you are interested in going to industry or getting a higher starting
+                        salary, getting a master's is a great choice. On the other hand, for most jobs as professors in academia
+                        or research labs at major companies, a Ph.D is generally required. Because a Ph.D is a 4-6 year commitment,
+                        I briefly describe the three main options available based on your interests.
+                    </p>
+                    <p class="regulartext">
+                        First, for students with little interest in conducting research, a good alternative is 
+                        a <b>Master's of Engineering (M.Eng)</b>. An M.Eng simply entails taking more classes, possibly with a capstone
+                        project at the end, to graduate in approximately <b>1 year</b>. Easy right? Keep in mind that you may have
+                        to <b>pay out of pocket</b>.
+                    </p>
+                    <p class="regulartext">
+                        Second, for students who are interested in conducting research, but are unsure of doing a Ph.D, a
+                        <b>Master's  of Science (M.Sc)</b> is a good option. Generally, the M.Sc takes <b>2 years</b> and requires taking
+                        classes and completing a research thesis, with the option to continue on the Ph.D. Depending on the institution,
+                        the M.Sc maybe <b>paid for by the university</b> if the student works as a Teaching Assistant for the duration of
+                        their studies.
+                    </p>
+                    <p class="regulartext">
+                        Lastly, the <b>Doctor of Philosophy (Ph.D)</b> is suitable for individuals who are certain that they want
+                        to conduct research and to become professors or work in labs at places like Microsoft or Facebook
+                        Research. Remember this is a commitment of <b>4-6 years</b>. For most programs in CS, the Ph.D is 
+                        <b>completely paid for</b> with the exceptions of minimal fees.<br>
+                        I recommend checking out the funding tab if you are a prospective or current graduate student, but you are
+                        unsure of how you will pay for it. 
+                    </p>
+                </div>
+                <!-- End of Should I do a Ph.D-->
+
+                <!-- Beginning of Undergrad resources-->
+                <div id="Undergrad" class="tabcontent">
+                    <p class="regulartext">
+                        Welcome undergrads! If you're here, it is likely because you want to obtain a graduate degree, or,
+                        at least, get some research experience to decide whether a graduate degree is the best path for your
+                        career. To start, I cannot emphasize it enough that a graduate degree, with the exception of an M.Eng,
+                        is not similar to your undergraduate journey. Unlike undergrad where you simply absorb knowledge and get
+                        tested on your understanding, you are expected to <b>conduct research with the goal of creating new
+                        knowledge.</b><br> If you are not sold that you want to get a graduate degree, no worries! I provide
+                        below links to opportunities for summer research and workshops where you can sort of "test drive" life
+                        as a graduate student in Computer Science.
+                    </p>
+                    <table id="utbl">
+                            <tr>
+                                <th>Program</th>
+                                <th>Application Deadline</th>
+                                <th>Elibility</th>
+                                <th>Where?</th>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <a href="https://mcnairscholars.com/">Ronald E. McNair Scholars Program</a>
+                                </td>
+                                <td>Varies by Institution</td>
+                                <td>U.S Citizen or Permanent Resident</td>
+                                <td>All over the U.S</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.theleadershipalliance.org/">
+                                    Summer Research - Early Identification Program (SR-EIP)</a></td>
+                                <td>November 1</td>
+                                <td>U.S Citizen or Permanent Resident</td>
+                                <td>30 research sites</td>
+                            </tr>
+                            <tr>
+                                <td><a href="https://www.cs.cornell.edu/content/workshop/sonic">
+                                    SoNIC Summer Research Workshop</a></td>
+                                <td>Late March</td>
+                                <td>All Underrepresented Minorities in CS</td>
+                                <td>Cornell University</td>
+                                </tr>
+                            <tr>
+                                <td><a href="">
+                                    The Cornell, Maryland, Max Plack Pre-doctoral Research School</a></td>
+                                <td>Late March</td>
+                                <td>Everyone</td>
+                                <td>Max Planck Institute for Software Systems</td>
+                            </tr>
+                        </table>
+                </div>
+                <!-- End of Undergrad resources -->
+
+                <!-- Beginning of funding-->
+                <div id="Funding" class="tabcontent">
+                    <h3>Funding</h3>
+                    <p class="regulartext">
+                        Coming soon: fellowships, scholarships, workshops, grants, e.t.c. You name it, I will have it! :).
+                    </p>
+                </div>
+                <!-- End of funding -->
+
+                <!-- Beginning of FAQ-->
+                <div id="FAQ" class="tabcontent">
+                    <p class="regulartext">
+                        Got questions? I got answers! If your question is not answered below, email me, and I can either answer
+                        it or at least point you to someone or some resources that can answer it.
+                    </p>
+                    <!-- Should I do a Ph.D-->
+                    <p class="accordion"> 🤔 Should I do a Ph.D?</p>
+                    <div class="panel">
+                        <ul class="bullets">
+                                <li>
+                                    If, going through undergraduate courses, you felt like there was always a curiosity itch that you
+                                    could not scratch, then the Ph.D might be right for you.
+                                </li>
+                                <li>
+                                    If you get excited by developing and presenting new ideas, then the Ph.D might be right for you.
+                                </li>
+                                <li>
+                                    If you are okay with failing and bouncing back from it, then the Ph.D might be right for you.
+                                </li>
+                                <li>
+                                    If you have ever woken up from a deep sleep at 3 a.m. because you figured out where the bug in your
+                                    code is, then the Ph.D might be right for you.
+                                </li>
+                                <li>
+                                    If you are passionate and get excited about teaching other people new concepts, then the Ph.D might
+                                    be right for you.
+                                </li>
+                                <li>
+                                    If you are okay with taking a 50%+ pay cut and scaling back your lavish lifestyle from an industry salary,
+                                    then the Ph.D might be right for you.
+                                </li>
+                            </ul>
+                    </div>
+                    <!-- Wrong reasons for a Ph.D-->
+                    <p class="accordion"> 🤭 Wrong reasons to do a Ph.D</p>
+                    <div class="panel">
+                        <p class="regulartext">
+                            <ul class="bullets">
+                                <li>I want to get a higher starting salary.</li>
+                                <li>I like the sound of Doctor Jane/John Doe.</li>
+                                <li>My dad, mom, family, girlfriend, boyfriend wants me to do one.</li>
+                                <li>I don't know what else to do after my undergrad.</li>
+                                <li> I am not ready for the "real world".</li>
+                            </ul>
+                        </p>
+                    </div>
+                    <!-- For sophomores/juniors -->
+                    <p class="accordion">
+                        🤓 I am going into my sophomore/junior year in undergrad, is it too early to start thinking about graduate school?</p>
+                    <div class="panel">
+                        <p class="regulartext">
+                            Look at you! I am so proud of you! It is never too early. Start by getting some research under your belt so that,
+                            by the time graduate school application season rolls around, you will have enough experience and recommenders
+                            to apply for your dream graduate school. Be sure to check out the Undergrad resources tab on this page.
+                        </p>
+                    </div>
+                    <!-- For international students -->
+                    <p class="accordion"> 🌍 I am an international student, what do I do about visas/employment authorization?</p>
+                    <div class="panel">
+                        <p class="regulartext">
+                            If you get admitted to a graduate program, the university will work with you to get all the documents you
+                            need to pursue your studies in the U.S.
+                        </p>
+                    </div>
+                    <!-- Masters versus Ph.D -->
+                    <p class="accordion"> 🎓 Can I get a master's on the way to the Ph.D?</p>
+                    <div class="panel">
+                        <p class="regulartext">At most institutions, the short answer is Yes. But, I would advise against applying to a
+                            Ph.D program when you really want a master's (See tab on Master's or Ph.D).
+                        </p>
+                    </div>
+                    <!-- Ph.D application-->
+                    <p class="accordion"> 📜 What is the application process?</p>
+                    <div class="panel">
+                        <p class="regulartext">
+                            Graduate applications take a good amount of planning and grit. Generally, the process involves
+                            writing <b>research statements</b>, optionally a <b>personal statement</b>,
+                            taking and sending <b>GRE scores</b> (now optional at some institutions like Cornell),
+                            <b>TOEFL scores</b> (for international students that did not do undergrad in the U.S),
+                            at least <b>three letters of recommendations</b>, and your <b>official transcripts</b>. Make sure to start
+                            early because the earliest deadlines are usually December 1. That's when the early bird gets
+                            the worm. In other words, the earlier you submit, the more likely you will be considered for
+                            the best funding package and fellowships.
+                        </p>
+                    </div>
+                    <!-- Recommendations-->
+                    <p class="accordion"> ✍ What is the recommendation process?</p>
+                    <div class="panel">
+                        <p class="regulartext">In most cases, you need to take classes, do research, or work in industry
+                            to get a letter of recommendation (LOR) from professors and supervisors. 
+                            An alternative way to get an LOR is to be a Teaching or Lab Assistant for a professor. The point is
+                            graduate schools want to hear from people (outside your family who love you) that can speak to your
+                            research potential. Therefore, you want the professors/supervisors to write you a <b>strong</b> LOR.
+                            Repeat that with me, you want a <b>strong</b> LOR! If the professor/supervisor is not comfortable giving
+                            you a <b>strong</b> recommendation, then it's best to find another recommender. 
+                        </p>
+                    </div>
+                    <!-- I'm in, now what? -->
+                    <p class="accordion"> 😎 I've been admitted. What should I expect for the first few years?</p>
+                    <div class="panel">
+                        <p class="regulartext">
+                            First of all, congratulations! Second, get ready for exciting times ahead. In the first and second year,
+                            you can expect to be mostly taking classes and doing some research. You get flexibility in which classes
+                            you take. At most institutions, you are given the first year to explore your options (sort of like dating
+                            😁) before settling on one or two advisor(s). <b>More advice to come after I finish my second year.
+                            Cheers</b>.  
+                        </p>
+                    </div>
+                    <!-- Internships -->
+                    <p class="accordion"> 💸 Is it possible to do internships in graduate school?</p>
+                    <div class="panel">
+                        <p class="regulartext">
+                            The answer is a resounding YES! But, make sure that you've secured an advisor and a research agenda before
+                            going for an internship in industry. In other words, refrain from doing an internship the summer after your 
+                            first year. However, please take my advice with a grain of salt because this wildly varies by advisor and
+                            field in CS.
+                        </p>
+                    </div>
+                </div>
+                <!-- End of FAQ-->
+
+                <!-- End of Tab content-->
+
+                <div class="warning">
+                    <p class="regulartext">
+                        <b>Disclaimer: any opinions contained herein are those of the author, and they do not necessarily reflect the views or
+                        beliefs of his Ph.D funding sources, advisors, or institution.</b>
+                    </p>
+                </div>
+            </div>
+            <!-- End of sections-->
+            
+        </div>
+        <!-- End of body-->
+
+        <!-- The footer-->
+        <div id="footer">
+            © 2019 Gloire Rubambiza
+        </div>
+        <!-- End of footer-->
+    </div>
+
+</body>
+</html>
